@@ -32,6 +32,7 @@ Single-purpose Claude Code skills. Each one does one job well.
 | [`founder-email-finder`](https://github.com/nickyc1/founder-email-finder) | Enrich a Google Sheet of prospects with verified founder emails. Opinionated waterfall, confidence-scored, dry-run by default. |
 | [`granola-action-items`](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run daily and weekly briefings. With hallucination prevention. |
 | [`social-publish-guardrails`](https://github.com/nickyc1/social-publish-guardrails) | Social publishing workflow with a hard human-approval gate. Five-step scaffold, draft mode by default, no bypass. |
+| [`mcp-setup-template`](https://github.com/nickyc1/mcp-setup-template) | **Meta-skill.** Author a new first-time MCP setup skill following the proven pattern. Templates for SKILL.md, configure.sh, OAuth doc, launchd plist. |
 
 ## 🔧 Tools
 
@@ -111,6 +112,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Weekly review, search-term mining, budget reallocation, circuit-breaker enforcement. |
 | [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server connected to a Google Ads Manager (MCC) account. Run once, then Claude can query every sub-account. |
 | [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run a daily/weekly briefing of open items with hallucination prevention. |
+| [mcp-setup-template](https://github.com/nickyc1/mcp-setup-template) | Meta-skill. Author a new first-time MCP setup skill following the proven pattern used by ga4-mcp-setup, google-ads-mcp-setup, and others. |
 | [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. Includes 7 marketing operations recipes. |
 | [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context skill — every other paid-ads skill reads this first to ground its work in your specific business and accounts. |
 | [paid-channel-recap](https://github.com/nickyc1/paid-channel-recap) | Generate a paid-channel performance recap as a shareable HTML dashboard for a client, partner, or internal stakeholder. |
