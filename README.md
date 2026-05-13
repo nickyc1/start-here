@@ -5,66 +5,76 @@
 </p>
 
 <p align="center">
-  This is my GitHub. Most of what's here is the <strong>Paid Ads Agent Stack</strong> I use to run paid channels with Claude Code as the operator.
+  This is where I publish the <strong>Claude Code skills, tools, voice profile framework, and n8n workflows</strong> I actually use to run marketing operations end to end.
+</p>
+
+<p align="center">
+  Pick any repo. Clone it. It works.
 </p>
 
 ---
 
-## The Paid Ads Agent Stack
+## 🧠 Skills
 
-Every marketer should have a GitHub repo. Here's mine — the [Claude Code](https://claude.com/claude-code) skills I use to run paid channels end to end. Each one is a single repo you can clone in 30 seconds and start using on your own accounts.
-
-### Plan and design the campaign
+Single-purpose Claude Code skills. Each one does one job well.
 
 | Skill | What it does |
 |---|---|
-| [`apple-grade-design`](https://github.com/nickyc1/apple-grade-design) | Stack Stitch MCP + Nano Banana 2 MCP + UI/UX Pro Max into one design workflow. For landing pages and ad creative that pass the swap test. |
-
-### Run the campaign
-
-| Skill | What it does |
-|---|---|
-| [`google-ads-manager`](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management. Weekly review, search-term mining, budget reallocation. Circuit breakers + propose-then-approve. |
-| [`ppc-profit-intelligence`](https://github.com/nickyc1/ppc-profit-intelligence) | Free agent prompt + Apps Script for connecting Google Ads spend to your real profit data, not Google's reported ROAS. |
-
-### Report on the campaign
-
-| Skill | What it does |
-|---|---|
-| [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Generate a shareable HTML performance recap for any paid-channel campaign. Google Ads + Meta Ads + GA4. Stakeholder-safe redaction by default. |
-
-### Support the rest of the marketing operation
-
-| Skill | What it does |
-|---|---|
+| [`apple-grade-design`](https://github.com/nickyc1/apple-grade-design) | Stack Stitch MCP + Nano Banana 2 MCP + UI/UX Pro Max into one design workflow. Landing pages and ad creative that pass the swap test. |
+| [`google-ads-manager`](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management. Weekly review, search-term mining, budget reallocation. Circuit breakers, propose-then-approve. |
+| [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Generate a shareable HTML performance recap for any paid campaign. Google Ads + Meta + GA4. Stakeholder-safe redaction by default. |
 | [`founder-email-finder`](https://github.com/nickyc1/founder-email-finder) | Enrich a Google Sheet of prospects with verified founder emails. Opinionated waterfall, confidence-scored, dry-run by default. |
-| [`granola-action-items`](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run daily/weekly briefings. With hallucination prevention. |
+| [`granola-action-items`](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run daily and weekly briefings. With hallucination prevention. |
 | [`social-publish-guardrails`](https://github.com/nickyc1/social-publish-guardrails) | Social publishing workflow with a hard human-approval gate. Five-step scaffold, draft mode by default, no bypass. |
+
+## 🔧 Tools
+
+The curated, opinionated tool reference my agents read before they pick a tool.
+
+| Repo | What it is |
+|---|---|
+| [`marketing-stack`](https://github.com/nickyc1/marketing-stack) | The full tools list — APIs, MCPs, CLIs, integrations, and the gotchas. Categorized by function. No affiliate spam. |
+
+## 🎙️ Voice
+
+Capture your real writing voice so AI writes as you, not as a stock LinkedIn marketer.
+
+| Repo | What it is |
+|---|---|
+| [`voice-profile-kit`](https://github.com/nickyc1/voice-profile-kit) | 100-question voice interview, synthesis template, anti-overfitting guide, and ready-to-use Claude instructions. The framework, not someone else's profile. |
+
+## 🔁 Workflows
+
+End-to-end pipelines that compose tools and skills.
+
+| Repo | What it is |
+|---|---|
+| [`n8n-recipes`](https://github.com/nickyc1/n8n-recipes) | Claude Code skill for designing and debugging n8n workflows. Plus 7 marketing ops recipes — spend logging, lead enrichment, anomaly alerts, attribution joins. |
+| [`ppc-profit-intelligence`](https://github.com/nickyc1/ppc-profit-intelligence) | Free agent prompt + Apps Script for connecting Google Ads spend to real profit data, not Google-reported ROAS. |
 
 ---
 
 ## How to install one
 
-Pick any skill and:
+Pick any repo and:
 
 ```bash
-git clone https://github.com/nickyc1/<skill-name>.git ~/.claude/skills/<skill-name>
+git clone https://github.com/nickyc1/<repo>.git ~/.claude/skills/<repo>
 ```
 
-Restart Claude Code. The skill is available. Read the SKILL.md and the README in the repo for the specific install steps (most need an MCP server or two configured).
+Restart Claude Code. Read the SKILL.md and README for the specific install steps (most need an MCP server or two configured).
 
-## What you'll probably want to know
+## A note on what's here
 
-- **Are these all by me?** Yes. They came out of running paid ads at scale and getting tired of doing the same operations by hand.
-- **Do they only work for marketplaces / lifetime deals / AppSumo-style stuff?** No. They're scrubbed of any AppSumo-specific data and built generic. The opinions are about paid ads, not about any one business model.
-- **What's the license?** MIT on all of them. Fork, modify, ship.
-- **Will you accept PRs?** Yes, especially if you're using the skill in production and have a small improvement. I read every issue.
+- **All MIT-licensed.** Fork, modify, ship.
+- **All AppSumo data scrubbed.** The opinions are about paid ads and marketing operations, not about any one business model.
+- **All actively used by me.** If a repo is here, I run it. If it stops working, I fix it or take it down.
+- **PRs welcome.** Especially from people using a skill in production.
 
 ## Find me elsewhere
 
-- [nickbuilds.ai](https://nickbuilds.ai) — the AI agent newsletter
-- [CXL instructor profile](https://cxl.com/institute/instructors/nick-christensen/) — the courses I teach
-- [x.com/nickchristensen](https://x.com/nickchristensen) — short-form posts and arguments
-- [linkedin.com/in/nickchristensen](https://www.linkedin.com/in/nickchristensen) — longer-form posts and arguments
+- [nickbuilds.ai](https://nickbuilds.ai) — AI agent newsletter
+- [x.com/nickchristensen](https://x.com/nickchristensen) — short-form arguments
+- [linkedin.com/in/nickchristensen](https://www.linkedin.com/in/nickchristensen) — longer-form arguments
 
-If you ship something with one of these skills, I'd love to see it.
+If you ship something with one of these, I'd love to see it.
