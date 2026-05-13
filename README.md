@@ -24,6 +24,7 @@ Single-purpose Claude Code skills. Each one does one job well.
 | [`customer-research`](https://github.com/nickyc1/customer-research) | Conduct, analyze, synthesize customer research. Question banks, interview craft, the 1-2 page synthesis that feeds the rest of the stack. |
 | [`ad-creative`](https://github.com/nickyc1/ad-creative) | Generate paid ad creative at scale. 15 RSA headlines, 5-10 Meta hooks, UGC scripts, static briefs. Character limits and brand voice enforced. |
 | [`apple-grade-design`](https://github.com/nickyc1/apple-grade-design) | Stack Stitch MCP + Nano Banana 2 MCP + UI/UX Pro Max into one design workflow. Landing pages and ad creative that pass the swap test. |
+| [`google-ads-mcp-setup`](https://github.com/nickyc1/google-ads-mcp-setup) | Connect Claude to a Google Ads Manager (MCC) account via a local MCP server. Run once, then Claude can query and manage every sub-account from natural language. |
 | [`google-ads-manager`](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management. Weekly review, search-term mining, budget reallocation. Circuit breakers, propose-then-approve. |
 | [`attribution-modeling`](https://github.com/nickyc1/attribution-modeling) | Build, audit, operate a profit-first attribution model. UTM hygiene, server-side conversions, geo-holdout incrementality. |
 | [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Generate a shareable HTML performance recap for any paid campaign. Google Ads + Meta + GA4. Stakeholder-safe redaction by default. |
@@ -108,6 +109,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [customer-research](https://github.com/nickyc1/customer-research) | Conduct, analyze, and synthesize customer research that actually changes downstream marketing. |
 | [founder-email-finder](https://github.com/nickyc1/founder-email-finder) | Find and verify founder emails for prospects in a Google Sheet. Confidence-scored waterfall, dry-run by default. |
 | [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Weekly review, search-term mining, budget reallocation, circuit-breaker enforcement. |
+| [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server connected to a Google Ads Manager (MCC) account. Run once, then Claude can query every sub-account. |
 | [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run a daily/weekly briefing of open items with hallucination prevention. |
 | [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. Includes 7 marketing operations recipes. |
 | [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context skill — every other paid-ads skill reads this first to ground its work in your specific business and accounts. |
