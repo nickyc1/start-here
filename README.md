@@ -20,9 +20,14 @@ Single-purpose Claude Code skills. Each one does one job well.
 
 | Skill | What it does |
 |---|---|
+| [`paid-ads-context`](https://github.com/nickyc1/paid-ads-context) | Foundation context skill. Every other paid-ads skill reads this first — business, ICP, ad accounts, target metrics, voice, redaction policy. |
+| [`customer-research`](https://github.com/nickyc1/customer-research) | Conduct, analyze, synthesize customer research. Question banks, interview craft, the 1-2 page synthesis that feeds the rest of the stack. |
+| [`ad-creative`](https://github.com/nickyc1/ad-creative) | Generate paid ad creative at scale. 15 RSA headlines, 5-10 Meta hooks, UGC scripts, static briefs. Character limits and brand voice enforced. |
 | [`apple-grade-design`](https://github.com/nickyc1/apple-grade-design) | Stack Stitch MCP + Nano Banana 2 MCP + UI/UX Pro Max into one design workflow. Landing pages and ad creative that pass the swap test. |
 | [`google-ads-manager`](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management. Weekly review, search-term mining, budget reallocation. Circuit breakers, propose-then-approve. |
+| [`attribution-modeling`](https://github.com/nickyc1/attribution-modeling) | Build, audit, operate a profit-first attribution model. UTM hygiene, server-side conversions, geo-holdout incrementality. |
 | [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Generate a shareable HTML performance recap for any paid campaign. Google Ads + Meta + GA4. Stakeholder-safe redaction by default. |
+| [`weekly-ops-review`](https://github.com/nickyc1/weekly-ops-review) | The Monday-morning one-page paid-ads operating review. TL;DR, health, channels, open proposals, team asks. |
 | [`founder-email-finder`](https://github.com/nickyc1/founder-email-finder) | Enrich a Google Sheet of prospects with verified founder emails. Opinionated waterfall, confidence-scored, dry-run by default. |
 | [`granola-action-items`](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run daily and weekly briefings. With hallucination prevention. |
 | [`social-publish-guardrails`](https://github.com/nickyc1/social-publish-guardrails) | Social publishing workflow with a hard human-approval gate. Five-step scaffold, draft mode by default, no bypass. |
@@ -54,9 +59,69 @@ End-to-end pipelines that compose tools and skills.
 
 ---
 
-## How to install one
+## How the skills compose
 
-Pick any repo and:
+The stack reads top-to-bottom. `paid-ads-context` is the foundation every other skill checks first.
+
+```
+                  ┌────────────────────────────────┐
+                  │     paid-ads-context           │
+                  │  (read by every other skill)   │
+                  └─────────────┬──────────────────┘
+                                │
+       ┌───────────┬────────────┼────────────┬────────────┐
+       ▼           ▼            ▼            ▼            ▼
+  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌──────────┐ ┌──────────┐
+  │Customer │ │Creative │ │ Ad Ops  │ │Reporting │ │  Voice   │
+  │Research │ │         │ │         │ │          │ │          │
+  ├─────────┤ ├─────────┤ ├─────────┤ ├──────────┤ ├──────────┤
+  │customer-│ │apple-   │ │google-  │ │paid-     │ │voice-    │
+  │research │ │grade-   │ │ads-     │ │channel-  │ │profile-  │
+  │         │ │design   │ │manager  │ │recap     │ │kit       │
+  │         │ │ad-      │ │         │ │weekly-   │ │          │
+  │         │ │creative │ │         │ │ops-review│ │          │
+  │         │ │         │ │         │ │attribut- │ │          │
+  │         │ │         │ │         │ │ion-      │ │          │
+  │         │ │         │ │         │ │modeling  │ │          │
+  └────┬────┘ └────┬────┘ └────┬────┘ └─────┬────┘ └────┬─────┘
+       │           │           │            │           │
+       └───────────┴─────┬─────┴────────────┴───────────┘
+                         │
+              Skills cross-reference each other:
+              ad-creative ↔ apple-grade-design ↔ paid-channel-recap
+              customer-research → paid-ads-context → all
+              attribution-modeling → google-ads-manager → weekly-ops-review
+```
+
+See each skill's **Related Skills** section for the full dependency map.
+
+---
+
+## Full skills index (auto-updated)
+
+<!-- SKILLS:START -->
+| Skill | Description |
+|-------|-------------|
+| [ad-creative](https://github.com/nickyc1/ad-creative) | Generate, iterate, and scale paid ad creative — hooks, headlines, descriptions, primary text, static image briefs, video scripts. |
+| [apple-grade-design](https://github.com/nickyc1/apple-grade-design) | Apple-grade UI design workflow that stacks Stitch MCP for layouts, Nano Banana 2 MCP for visuals, and UI/UX Pro Max for critique. |
+| [attribution-modeling](https://github.com/nickyc1/attribution-modeling) | Build, audit, and operate a profit-first attribution model that connects ad-platform spend to your real revenue and profit. |
+| [customer-research](https://github.com/nickyc1/customer-research) | Conduct, analyze, and synthesize customer research that actually changes downstream marketing. |
+| [founder-email-finder](https://github.com/nickyc1/founder-email-finder) | Find and verify founder emails for prospects in a Google Sheet. Confidence-scored waterfall, dry-run by default. |
+| [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Weekly review, search-term mining, budget reallocation, circuit-breaker enforcement. |
+| [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run a daily/weekly briefing of open items with hallucination prevention. |
+| [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. Includes 7 marketing operations recipes. |
+| [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context skill — every other paid-ads skill reads this first to ground its work in your specific business and accounts. |
+| [paid-channel-recap](https://github.com/nickyc1/paid-channel-recap) | Generate a paid-channel performance recap as a shareable HTML dashboard for a client, partner, or internal stakeholder. |
+| [social-publish-guardrails](https://github.com/nickyc1/social-publish-guardrails) | Reusable social publishing workflow with a hard human-approval gate before any publish action. |
+| [voice-profile-kit](https://github.com/nickyc1/voice-profile-kit) | Build, maintain, and apply your own voice profile so AI writes as you, not as a stock LinkedIn marketer. |
+| [weekly-ops-review](https://github.com/nickyc1/weekly-ops-review) | Generate the weekly paid-ads operating review — the one-page document that captures health, decisions, and asks for the marketing team. |
+<!-- SKILLS:END -->
+
+*Updated weekly via [a GitHub Action](.github/workflows/update-skills-table.yml). Manually regenerate with `python3 scripts/build-skills-table.py`.*
+
+---
+
+## How to install any of them
 
 ```bash
 git clone https://github.com/nickyc1/<repo>.git ~/.claude/skills/<repo>
@@ -69,7 +134,7 @@ Restart Claude Code. Read the SKILL.md and README for the specific install steps
 - **All MIT-licensed.** Fork, modify, ship.
 - **All AppSumo data scrubbed.** The opinions are about paid ads and marketing operations, not about any one business model.
 - **All actively used by me.** If a repo is here, I run it. If it stops working, I fix it or take it down.
-- **PRs welcome.** Especially from people using a skill in production.
+- **PRs welcome.** Each repo has a `CONTRIBUTING.md` — start there.
 
 ## Find me elsewhere
 
