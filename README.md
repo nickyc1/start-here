@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Nick.</h1>
 
 <p align="center">
-  I run paid ads for <a href="https://appsumo.com">AppSumo</a>. I write about AI agents at <a href="https://nickbuilds.ai">nickbuilds.ai</a>. I teach at <a href="https://cxl.com">CXL</a>.
+  I run paid ads for <a href="https://appsumo.com">AppSumo</a>. I write about AI agents at <a href="https://nickbuilds.ai">nickbuilds.ai</a>.
 </p>
 
 <p align="center">
