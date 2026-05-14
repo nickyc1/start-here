@@ -28,10 +28,11 @@ except ImportError:
     sys.exit(1)
 
 REPO_OWNER = "nickyc1"
+PROFILE_REPO = "start-here"  # the profile-index repo (renamed from "nickyc1" so it doesn't repeat the username)
 README_PATH = Path(__file__).parent.parent / "README.md"
 EXCLUDE_REPOS = {
-    REPO_OWNER,        # the profile repo itself
-    "marketing-stack",  # tools, not a skill
+    PROFILE_REPO,        # the profile repo itself
+    "marketing-stack",   # tools, not a skill
     "ppc-profit-intelligence",  # a guide/landing page, not a Claude skill
 }
 
