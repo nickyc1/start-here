@@ -102,23 +102,29 @@ See each skill's **Related Skills** section for the full dependency map.
 ## Full skills index (auto-updated)
 
 <!-- SKILLS:START -->
+
 | Skill | Description |
 |-------|-------------|
 | [ad-creative](https://github.com/nickyc1/ad-creative) | Generate, iterate, and scale paid ad creative — hooks, headlines, descriptions, primary text, static image briefs, video scripts. |
 | [apple-grade-design](https://github.com/nickyc1/apple-grade-design) | Apple-grade UI design workflow that stacks Stitch MCP for layouts, Nano Banana 2 MCP for visuals, and UI/UX Pro Max for critique. |
-| [attribution-modeling](https://github.com/nickyc1/attribution-modeling) | Build, audit, and operate a profit-first attribution model that connects ad-platform spend to your real revenue and profit. |
+| [appsumo-ads-reports](https://github.com/nickyc1/appsumo-ads-reports) | (no description) |
+| [appsumo-yt-strategy](https://github.com/nickyc1/appsumo-yt-strategy) | AppSumo YouTube video asset catalog + Demand Gen scaling plan for the agency |
+| [attribution-modeling](https://github.com/nickyc1/attribution-modeling) | Build, audit, and operate a profit-first attribution model that connects ad-platform spend to your real revenue and profit, not the platforms' reported ROAS. |
+| [blp-designs](https://github.com/nickyc1/blp-designs) | Five design directions for Baby Let's Padel — editorial, technical, brutalist, atlas, exhibition. |
 | [customer-research](https://github.com/nickyc1/customer-research) | Conduct, analyze, and synthesize customer research that actually changes downstream marketing. |
-| [founder-email-finder](https://github.com/nickyc1/founder-email-finder) | Find and verify founder emails for prospects in a Google Sheet. Confidence-scored waterfall, dry-run by default. |
-| [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Weekly review, search-term mining, budget reallocation, circuit-breaker enforcement. |
-| [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server connected to a Google Ads Manager (MCC) account. Run once, then Claude can query every sub-account. |
-| [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, run a daily/weekly briefing of open items with hallucination prevention. |
-| [mcp-setup-template](https://github.com/nickyc1/mcp-setup-template) | Meta-skill. Author a new first-time MCP setup skill following the proven pattern used by ga4-mcp-setup, google-ads-mcp-setup, and others. |
-| [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. Includes 7 marketing operations recipes. |
-| [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context skill — every other paid-ads skill reads this first to ground its work in your specific business and accounts. |
-| [paid-channel-recap](https://github.com/nickyc1/paid-channel-recap) | Generate a paid-channel performance recap as a shareable HTML dashboard for a client, partner, or internal stakeholder. |
-| [social-publish-guardrails](https://github.com/nickyc1/social-publish-guardrails) | Reusable social publishing workflow with a hard human-approval gate before any publish action. |
+| [founder-email-finder](https://github.com/nickyc1/founder-email-finder) | Find and verify founder emails for prospects in a Google Sheet, and write only confidence-approved emails into the target column. |
+| [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Use to run weekly reviews, mine search terms for negatives, propose budget reallocations, and check campaigns against circuit-breaker safety rails. |
+| [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server (google-ads-mcp). |
+| [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, and run a daily/weekly briefing of open items to Slack or any other channel. |
+| [mcp-setup-template](https://github.com/nickyc1/mcp-setup-template) | Author a first-time setup skill for any MCP server, following the proven pattern used by ga4-mcp-setup, google-sheets-mcp-setup, google-ads-mcp-setup, pandadoc-mcp-setup, and... |
+| [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. |
+| [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context document for a paid-ads operation. |
+| [paid-channel-recap](https://github.com/nickyc1/paid-channel-recap) | Generate a paid-channel performance recap as a shareable HTML dashboard for a client, partner, or internal stakeholder after (or during) a campaign window. |
+| [social-publish-guardrails](https://github.com/nickyc1/social-publish-guardrails) | Reusable social publishing workflow with a hard human-approval gate before any publish action. Use when scheduling Instagram, TikTok, Twitter/X, LinkedIn, or Facebook content from a CSV/sheet queue. |
+| [ThreadCopy-Browser-Ext](https://github.com/nickyc1/ThreadCopy-Browser-Ext) | (no description) |
 | [voice-profile-kit](https://github.com/nickyc1/voice-profile-kit) | Build, maintain, and apply your own voice profile so AI writes as you, not as a stock LinkedIn marketer. |
 | [weekly-ops-review](https://github.com/nickyc1/weekly-ops-review) | Generate the weekly paid-ads operating review — the one-page document that captures health, decisions, and asks for the marketing team. |
+
 <!-- SKILLS:END -->
 
 *Updated weekly via [a GitHub Action](.github/workflows/update-skills-table.yml). Manually regenerate with `python3 scripts/build-skills-table.py`.*
