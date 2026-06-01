@@ -117,6 +117,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server (google-ads-mcp). |
 | [granola-action-items](https://github.com/nickyc1/granola-action-items) | Parse Granola meeting recordings, extract action items, and run a daily/weekly briefing of open items to Slack or any other channel. |
 | [mcp-setup-template](https://github.com/nickyc1/mcp-setup-template) | Author a first-time setup skill for any MCP server, following the proven pattern used by ga4-mcp-setup, google-sheets-mcp-setup, google-ads-mcp-setup, pandadoc-mcp-setup, and... |
+| [meta-ads-mcp-setup](https://github.com/nickyc1/meta-ads-mcp-setup) | First-time setup guide for the Meta Ads MCP server. Walks through Meta App creation in developers.facebook.com, Business Manager + ad account permissioning, long-lived System User token generation,... |
 | [n8n-recipes](https://github.com/nickyc1/n8n-recipes) | Design, build, debug, and version-control n8n workflows from Claude Code. |
 | [paid-ads-context](https://github.com/nickyc1/paid-ads-context) | Foundation context document for a paid-ads operation. |
 | [paid-channel-recap](https://github.com/nickyc1/paid-channel-recap) | Generate a paid-channel performance recap as a shareable HTML dashboard for a client, partner, or internal stakeholder after (or during) a campaign window. |
