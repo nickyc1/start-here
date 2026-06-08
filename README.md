@@ -112,6 +112,9 @@ See each skill's **Related Skills** section for the full dependency map.
 | [attribution-modeling](https://github.com/nickyc1/attribution-modeling) | Build, audit, and operate a profit-first attribution model that connects ad-platform spend to your real revenue and profit, not the platforms' reported ROAS. |
 | [blp-designs](https://github.com/nickyc1/blp-designs) | Five design directions for Baby Let's Padel — editorial, technical, brutalist, atlas, exhibition. |
 | [customer-research](https://github.com/nickyc1/customer-research) | Conduct, analyze, and synthesize customer research that actually changes downstream marketing. |
+| [cxl-ai-native-creative-brief](https://github.com/nickyc1/cxl-ai-native-creative-brief) | (no description) |
+| [cxl-ai-native-lp](https://github.com/nickyc1/cxl-ai-native-lp) | (no description) |
+| [cxl-ai-systems-creative](https://github.com/nickyc1/cxl-ai-systems-creative) | (no description) |
 | [founder-email-finder](https://github.com/nickyc1/founder-email-finder) | Find and verify founder emails for prospects in a Google Sheet, and write only confidence-approved emails into the target column. |
 | [google-ads-manager](https://github.com/nickyc1/google-ads-manager) | Profit-first Google Ads management playbook. Use to run weekly reviews, mine search terms for negatives, propose budget reallocations, and check campaigns against circuit-breaker safety rails. |
 | [google-ads-mcp-setup](https://github.com/nickyc1/google-ads-mcp-setup) | First-time setup guide for the Google Ads MCP server (google-ads-mcp). |
