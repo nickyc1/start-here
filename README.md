@@ -109,6 +109,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [ads-expert-playbook](https://github.com/nickyc1/ads-expert-playbook) | Evidence-aware paid media best practices, expert reviews, and brand test plans |
 | [apple-grade-design](https://github.com/nickyc1/apple-grade-design) | Apple-grade UI design workflow that stacks Landingfolio MCP for inspiration references, Stitch MCP for layouts, Nano Banana 2 MCP for visuals, and UI/UX Pro Max for critique. |
 | [appsumo-2026-benefits](https://github.com/nickyc1/appsumo-2026-benefits) | (no description) |
+| [appsumo-affiliate-picks](https://github.com/nickyc1/appsumo-affiliate-picks) | (no description) |
 | [appsumo-radar-concept](https://github.com/nickyc1/appsumo-radar-concept) | Unofficial concept demo: a name-your-price shelf for open-source dictation tools. Not affiliated with AppSumo. |
 | [attribution-modeling](https://github.com/nickyc1/attribution-modeling) | Build, audit, and operate a profit-first attribution model that connects ad-platform spend to your real revenue and profit, not the platforms' reported ROAS. |
 | [bebos-angels](https://github.com/nickyc1/bebos-angels) | Bebo's Angels nonprofit website review |
